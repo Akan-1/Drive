@@ -66,6 +66,11 @@ public class CarMove : MonoBehaviour
 		carRigidbody.MoveRotation(rotationAngle); 
 	}
 
+	public float GetVelocityMagnitude()
+	{
+		return carRigidbody.velocity.magnitude;
+	}
+
 	void KillOrthogonalVelocity()
 	{
 		Vector2 forwardVelocity = transform.up * Vector2.Dot(carRigidbody.velocity, transform.up);
