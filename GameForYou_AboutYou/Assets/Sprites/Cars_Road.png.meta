@@ -170,6 +170,18 @@ TextureImporter:
   - first:
       213: -4553133655953825271
     second: Cars_Road_57
+  - first:
+      213: 3075613914893398710
+    second: Cars_Road_58
+  - first:
+      213: 4610862155472246974
+    second: Cars_Road_59
+  - first:
+      213: 1827024600627916498
+    second: Cars_Road_60
+  - first:
+      213: -7524091171852482774
+    second: Cars_Road_61
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -909,8 +921,8 @@ TextureImporter:
       name: Cars_Road_31
       rect:
         serializedVersion: 2
-        x: 906
-        y: 1025
+        x: 848
+        y: 1026
         width: 206
         height: 79
       alignment: 0
@@ -1460,7 +1472,7 @@ TextureImporter:
         width: 94
         height: 229
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1468,6 +1480,90 @@ TextureImporter:
       bones: []
       spriteID: 9022ffd301500d0c0800000000000000
       internalID: -4553133655953825271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cars_Road_58
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1195
+        width: 475
+        height: 447
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2387f6f86ceaa20800000000000000
+      internalID: 3075613914893398710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cars_Road_59
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 926
+        width: 352
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8173573b21dff30800000000000000
+      internalID: 4610862155472246974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cars_Road_60
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1579
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dea35cb135ea5910800000000000000
+      internalID: 1827024600627916498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cars_Road_61
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1541
+        width: 94
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27841c81fe059790800000000000000
+      internalID: -7524091171852482774
       vertices: []
       indices: 
       edges: []
