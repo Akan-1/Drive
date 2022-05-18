@@ -182,6 +182,9 @@ TextureImporter:
   - first:
       213: -7524091171852482774
     second: Cars_Road_61
+  - first:
+      213: -2570212196889391506
+    second: Cars_Road_62
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1049,7 +1052,7 @@ TextureImporter:
         serializedVersion: 2
         x: 227
         y: 170
-        width: 32
+        width: 33
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1564,6 +1567,27 @@ TextureImporter:
       bones: []
       spriteID: a27841c81fe059790800000000000000
       internalID: -7524091171852482774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cars_Road_62
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 85
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e080fdf95c45cd0800000000000000
+      internalID: -2570212196889391506
       vertices: []
       indices: 
       edges: []

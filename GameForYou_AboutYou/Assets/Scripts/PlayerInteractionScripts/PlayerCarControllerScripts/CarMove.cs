@@ -16,7 +16,7 @@ public class CarMove : MonoBehaviour
 
 	float velocityVsUp = 0;
 
-	Rigidbody2D carRigidbody;
+	public Rigidbody2D carRigidbody;
 
 	void Awake()
 	{
