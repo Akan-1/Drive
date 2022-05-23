@@ -161,7 +161,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5169441675832281719, guid: d5971f139a37e334e966ce0654c0c332,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 99ffc41820bcb2643b337e312d3f0c6a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 32fa4aee1f1a82942a97c4b48e887fed, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0
   m_Pitch: 1
@@ -172,7 +172,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 14.558776
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 7981633779302670375}
   m_Layer: 0
   m_Name: Car
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -321,6 +321,7 @@ MonoBehaviour:
   accelerationFactor: 10
   turnFactor: 2.5
   maxSpeed: 40
+  carRigidbody: {fileID: 0}
 --- !u!114 &7981633779302670380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5334,7 +5335,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 13.118316
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -5462,7 +5463,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 14.558806
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0

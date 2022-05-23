@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CarMove : MonoBehaviour
 {
@@ -103,6 +101,9 @@ public class CarMove : MonoBehaviour
 
 	public void SetInputVector(Vector2 inputVector)
 	{
+		inputVector.x = Mathf.Clamp(inputVector.x, -1.0f, 1.0f);
+		inputVector.y = Mathf.Clamp(inputVector.y, -1.0f, 1.0f);
+
 		steeringInput = inputVector.x;
 		accelerationInput = inputVector.y;
 	}

@@ -66,7 +66,16 @@ public class TargetPointer : MonoBehaviour
 		if (Vector3.Dot(forward, toOther) < 0) return true;
 		return false;
 	}
-	private void RotatePointer(Vector2 direction) // поворачивает PointerUI в направление direction
+
+    private void Update()
+    {
+		if (Target == null)
+		{
+			TargetPointer.Destroy(this.gameObject);
+		}
+	}
+
+    private void RotatePointer(Vector2 direction) // поворачивает PointerUI в направление direction
 	{
 		float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 		PointerUI.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
