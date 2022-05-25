@@ -230,6 +230,12 @@ TextureImporter:
   - first:
       213: -6390752885346247849
     second: Cars_Road_77
+  - first:
+      213: 3408837781107620860
+    second: Cars_Road_78
+  - first:
+      213: -5464208728826185773
+    second: Cars_Road_79
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -730,27 +736,6 @@ TextureImporter:
       bones: []
       spriteID: a0a07e92a050de1f0800000000000000
       internalID: -1014148799877674486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cars_Road_20
-      rect:
-        serializedVersion: 2
-        x: 392
-        y: 357
-        width: 263
-        height: 89
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69111401675000e30800000000000000
-      internalID: 4467576834988511638
       vertices: []
       indices: 
       edges: []
@@ -1940,7 +1925,7 @@ TextureImporter:
         width: 49
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1948,6 +1933,69 @@ TextureImporter:
       bones: []
       spriteID: 75b52a54c1c7f47a0800000000000000
       internalID: -6390752885346247849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cars_Road_78
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 37
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbb9dfa6ef9e4f20800000000000000
+      internalID: 3408837781107620860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cars_Road_20
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 277
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69111401675000e30800000000000000
+      internalID: 4467576834988511638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cars_Road_79
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 347
+        width: 310
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7f9bb9c1b3b24b0800000000000000
+      internalID: -5464208728826185773
       vertices: []
       indices: 
       edges: []

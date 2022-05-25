@@ -4,7 +4,7 @@ public class PackagePicker : MonoBehaviour
 {
     [SerializeField] private AudioSource pickUpSound;
     
-    private int packageCount = 0;
+    public int packageCount = 0;
     
     public Text PackCounter;
     public GameObject garageWall;

@@ -60,7 +60,6 @@ public class CarAIHandler : MonoBehaviour
             case AIMode.followPlayer:
                 FollowPlayer();
                 break;
-
             case AIMode.followWaypoints:
                 FollowWaypoints();
                 break;
