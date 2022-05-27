@@ -17,6 +17,16 @@ public class Button : MonoBehaviour
 		SceneManager.LoadScene("Office");
 	}
 
+	public void ToCreditsButton()
+	{
+		SceneManager.LoadScene("Credits");
+	}
+
+	public void ToMainMenuButton()
+	{
+		SceneManager.LoadScene("MainMenu");
+	}
+
 	public void ExitButton()
 	{
 		Application.Quit();
