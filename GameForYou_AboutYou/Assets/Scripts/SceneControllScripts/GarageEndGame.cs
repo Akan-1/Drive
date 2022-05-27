@@ -9,6 +9,7 @@ public class GarageEndGame : MonoBehaviour
     public Transform parent;
     #endregion
 
+    public bool inTrigger = false;
 
     [SerializeField] private AudioSource LevelCompleteSound;
     [SerializeField] private AudioSource CarEngineOffSound;
@@ -16,12 +17,13 @@ public class GarageEndGame : MonoBehaviour
     private CarInputHandler carInputHandler;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.TryGetComponent<CarMove>(out CarMove car))
+        if(collision.CompareTag("Player"))
         {
             EndGamePanel.SetActive(true);
             LevelCompleteSound.Play();
             WallObj.SetActive(true);
             SetParentAndOffScript();
+            inTrigger = true;
         }
     }
 
